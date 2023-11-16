@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_biography">
+
+    <fragment
+        android:id="@+id/nav_biography"
+        android:name="com.example.generalowiewiary.ui.home.BiographyFragment"
+        android:label="@string/menu_biography"
+        tools:layout="@layout/fragment_biography" />
+
+    <fragment
+        android:id="@+id/nav_dates"
+        android:name="com.example.generalowiewiary.ui.gallery.PhotosFragment"
+        android:label="@string/menu_dates"
+        tools:layout="@layout/fragment_dates" />
+
+    <fragment
+        android:id="@+id/nav_photos"
+        android:name="com.example.generalowiewiary.ui.gallery.PhotosFragment"
+        android:label="@string/menu_photos"
+        tools:layout="@layout/fragment_photos" />
+
+    <fragment
+        android:id="@+id/nav_videos"
+        android:name="com.example.generalowiewiary.ui.videos.VideosFragment"
+        android:label="@string/menu_videos"
+        tools:layout="@layout/fragment_videos" />
+
+    <fragment
+        android:id="@+id/nav_books"
+        android:name="com.example.generalowiewiary.ui.videos.VideosFragment"
+        android:label="@string/menu_books"
+        tools:layout="@layout/fragment_books" />
+
+    <fragment
+        android:id="@+id/nav_top_menu"
+        android:name="com.example.generalowiewiary.ui.TopMenuFragment"
+        android:label="Top Menu"
+        tools:layout="@layout/fragment_top_menu" />
+
+
+
+</navigation>

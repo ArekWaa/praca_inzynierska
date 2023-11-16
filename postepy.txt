@@ -1,3 +1,10 @@
 3.11.2023
 - stworzenie repozytorium git
 - utworzenie nowego projektu w Android Studio
+
+10.11.2023
+- wstępne ustawienie kolorów aplikacji w trybie dziennym
+
+16.11.2023
+- usunięcie zbędnego kodu ze szkicu Android Studio
+- dodanie menu bocznego oraz menu górnego (nie udało się jeszcze zaimplementować ich równolegle)

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Generalowie Wiary</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Generałowie Wiary</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_biography">Biografia</string>
+    <string name="menu_dates">Daty</string>
+    <string name="menu_photos">Zdjęcia</string>
+    <string name="menu_videos">Filmy</string>
+    <string name="menu_books">Książki</string>
+
+</resources>
